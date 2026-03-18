@@ -1,0 +1,14 @@
+yfinance==0.2.25
+pandas==2.1.0
+numpy==1.26.0
+matplotlib==3.8.1
+scikit-learn==1.3.0
+
+| Package        | Purpose                                                                           |
+| -------------- | --------------------------------------------------------------------------------- |
+| `yfinance`     | To fetch historical stock data from Yahoo Finance                                 |
+| `pandas`       | Data manipulation and preprocessing                                               |
+| `numpy`        | Numerical operations                                                              |
+| `matplotlib`   | Plotting actual vs predicted prices                                               |
+| `scikit-learn` | Machine learning models (Linear Regression, Random Forest) and evaluation metrics |
+
