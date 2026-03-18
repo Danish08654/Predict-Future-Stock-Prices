@@ -4,7 +4,7 @@ Predict the next day's closing price of a stock using historical market data and
 // Dataset:
 
 1) Source: Yahoo Finance (via `yfinance` Python library)
-2) Example Stock: Apple (AAPL)
+2) Stock: Apple (AAPL)
 3) Features used: `Open`, `High`, `Low`, `Volume`
 4) Target: Next day's `Close` price
 
@@ -12,11 +12,14 @@ Predict the next day's closing price of a stock using historical market data and
 
 1. **Linear Regression**  
    1.1 Simple baseline model
+   
    1.2 Evaluates relationship between historical features and next day closing price
 
-2. **Random Forest Regressor**  
+3. **Random Forest Regressor**  
    2.1 Ensemble tree-based model
+   
    2.2 Handles non-linear relationships
+   
    2.3 Typically more accurate than linear regression
 
 // Implementation Steps:
